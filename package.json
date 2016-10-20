@@ -1,0 +1,24 @@
+{
+  "name": "emp-dir-app",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.6.1"
+  },
+  "dependencies": {
+    "axios": "^0.15.1",
+    "react": "^15.3.2",
+    "react-addons-update": "^15.3.2",
+    "react-bootstrap": "^0.30.5",
+    "react-bootstrap-form": "^0.1.4-beta6",
+    "react-datepicker": "^0.30.0",
+    "react-dom": "^15.3.2",
+    "toastr": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

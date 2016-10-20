@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.app-center {
+  text-align: center;
+}
+
+.app-header {
+  
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.app-header > h1 {
+font-size:40px
+}
+
+.app-intro {
+  font-size: large;
+}
+
+.form-elements {
+   width:300px;
+   margin-left: 10px;
+   /*margin-right: 10px;*/
+    float:left; 
+}
+
+.buttons-width {
+  width: 80px;
+}
+
+
+.row-align-table {
+    vertical-align: middle !important;
+    padding: 8px;
+    line-height: 1.42857143;
+    border-top: 1px solid #ddd;
+}
+
+
+@keyframes app-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
